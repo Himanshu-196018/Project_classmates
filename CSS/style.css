@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 2000px;
+    background-color: rgb(240 236 250);
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+.header{
+    /* border: 2px solid red; */
+    height: 100px;
+}
+.top{
+    background-color: rgb(2,0,42);
+    border: 1px solid black;
+    height: 50%;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+}
+.logo img{
+    padding: 2px;
+    width: 160px;
+}
+.search{
+    display: block;
+    position: relative;
+    width: 33%;
+    margin: 5px auto;
+}
+#searchbar{
+    width: 460px;
+    height: 35px;
+}
+input{
+    border-radius: 0px;
+    font-size: 26px;
+    outline: none;
+}
+.login{
+    position: absolute;
+    right: 50px;
+    top: 8px;
+    display: inline-block;
+}
+.login img{
+    padding: 2px;
+    width: 100px;
+    height: 33px;
+}
+.login a{
+    padding: 2px;
+    width: 104px;
+    height: 37px;
+}
+.login a:hover{
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+/* botelement */
+.bot{
+    margin-top: 1px;
+    display: block;
+    background-color: rgb(91,90,102);
+    border: 0px solid black;
+    height: 49px;
+    position: relative;
+}
+.menu{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    margin-top: 8px;
+}
+.menu input{
+    font-size: 21px;
+    margin: auto;
+}
+.navbar{
+    display: block;
+    position: sticky;
+    width: 75%;
+    margin: 0px auto;
+    padding-top: 8px;
+}
+nav ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    margin-top: 1px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    font-size: 22px;
+}
+.navbar a:hover, .navbar a.active{
+    text-decoration: underline;
+    color: black;
+}
+.navbar a:hover{
+    background-color: lightslategray;
+}
+.helpbox{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 8px;
+}
+.helpbox input{
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* main content */
+.mainbody{
+    position: relative;
+    margin: 10px 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.box{ 
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 10px 70px;
+    margin-top: 60px;
+    margin-left: 7%;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 35%;
+    background-color: lightgrey;
+}
+.box img{
+    display: block;
+    width: 150px;
+    height: 160px;
+    border: 3px solid black;
+    margin: 2px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.box p{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin: 2px 10px;
+    margin-bottom: 10px;
+}
+.box h3{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    margin: 5px 0px;
+}
+.box strong{
+    text-decoration: underline;
+    font-family: 'Itim', cursive;
+    font-weight: bolder;
+
+}
