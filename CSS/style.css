@@ -19,14 +19,14 @@ body{
     flex-wrap: wrap;
 }
 .logo{
-    /* no use */
+    width: 176px;
 }
 .logo img{
     padding: 2px;
-    width: 160px;
+    height: 45px;
 }
 .search{
-    width: 33%;
+    width: 50%;
     margin: 5px 20px;
 }
 #searchbar{
@@ -40,7 +40,7 @@ input{
 }
 .login{
     display: flex;
-    /* justify-content: flex-end; */
+    align-items: center;
     margin-right: 15px;
 }
 .login img{
@@ -67,35 +67,32 @@ input{
     border: 0px solid black;
     height: 49px;
     position: sticky;
+    justify-content:space-between;
 }
 .menu{
-    display: inline-block;
-    position: absolute;
-    left: 20px;
     margin-top: 8px;
 }
 .menu input{
     font-size: 21px;
-    margin: 0px auto;
 }
-.navbar{
-    display: block;
-    width: 75%;
-    margin: 0px auto;
-    padding-top: 8px;
+.nav{
+    width: 800px;
+    flex-shrink: 2;
 }
 nav ul{
     list-style: none;
+    margin-top: 8px;
 }
 .navbar li{
     display: inline-block;
-    margin-top: 1px;
+    z-index: 1;
 }
 .navbar a{
     color: white;
     text-decoration: none;
     padding: 5px 25px;
     font-size: 22px;
+    font-weight: bolder;
 }
 .navbar a:hover, .navbar a.active{
     text-decoration: underline;
@@ -105,10 +102,8 @@ nav ul{
     background-color: lightslategray;
 }
 .helpbox{
-    display: inline-block;
-    position: absolute;
-    right: 50px;
-    top: 8px;
+    align-self: center;
+    margin-right: 20px;
 }
 .helpbox input{
     border-radius: 20px;
@@ -118,12 +113,14 @@ nav ul{
 /* main content */
 .mainbody{
     margin: 10px 5px;
+    margin-bottom: 0px;
     border: 1px solid black;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* box-sizing: border-box; */
+    z-index: 2;
 }
 .box{ 
     border-left: 2px solid black;
@@ -165,4 +162,16 @@ nav ul{
     font-family: 'Itim', cursive;
     font-weight: bolder;
 
+}
+.endline p{
+    margin: 0px;
+    padding: 10px;
+    padding-top: 22px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+    font-weight: bolder;
+    text-align: center;
 }
