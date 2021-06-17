@@ -102,34 +102,6 @@ nav ul{
 .navbar a:hover{
     background-color: lightslategray;
 }
-@media only screen and (max-width:737px){
-    .header{
-        height: 140px;
-    }
-    .bot{
-        height: 80px;
-    }
-}
-@media only screen and (max-width:436px){
-    .logo img{
-        height: 40px;
-    }
-    .navbar a{
-        padding: 7px 20px;
-    }
-    .navbar > li:nth-child(6){
-        display: none;
-    }
-}
-@media only screen and (max-width:402px){
-    .login{
-        display: none;
-    }
-    .navbar > li:nth-child(5){
-        display: none;
-    }
-    
-}
 
 .helpbox{
     align-self: center;
@@ -198,15 +170,50 @@ nav ul{
     color: black;
 
 }
-.endline p{
-    margin: 0px;
-    padding: 10px;
-    padding-top: 22px;
+.endline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
-    height: 50px;
+    height: 60px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 29px;
+    font-size: 1.3rem;
     font-weight: bolder;
     text-align: center;
+}
+
+@media only screen and (max-width:737px){
+    .header{
+        height: 140px;
+    }
+    .bot{
+        height: 80px;
+    }
+    .endline{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:436px){
+    .logo img{
+        height: 40px;
+    }
+    .navbar a{
+        padding: 7px 20px;
+    }
+    .navbar > li:nth-child(6){
+        display: none;
+    }
+    .endline{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width:402px){
+    .login{
+        display: none;
+    }
+    .navbar > li:nth-child(5){
+        display: none;
+    }
+    
 }
